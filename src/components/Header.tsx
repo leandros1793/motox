@@ -19,7 +19,11 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-brand-border bg-brand-bg/90 backdrop-blur-sm">
-      <div className="bg-brand-red px-3 py-1.5 text-center text-[10px] font-bold uppercase tracking-widest text-white xs:text-[11px]">
+      <div className="flex items-center justify-center gap-2 bg-brand-red px-3 py-2 text-center text-[10px] font-bold uppercase tracking-widest text-white xs:text-[11px]">
+        <svg viewBox="0 0 20 20" fill="none" className="h-3.5 w-3.5 flex-none xs:h-4 xs:w-4">
+          <circle cx="10" cy="10" r="9" stroke="white" strokeWidth="1.6" />
+          <path d="M6 10.5l2.5 2.5L14 7.5" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
         Sin publicidad · Sin pop-ups · Experiencia 100% enfocada en el usuario
       </div>
 
