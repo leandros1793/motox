@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { categories } from "@/lib/categories";
+import CartBadge from "@/components/cart/CartBadge";
 
 export default function Header() {
   return (
@@ -42,6 +43,7 @@ export default function Header() {
           >
             Suscribirse
           </Link>
+          <CartBadge />
         </div>
       </div>
 

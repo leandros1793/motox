@@ -10,9 +10,13 @@ export default function NoticiasPage() {
     <>
       <Header />
       <main className="mx-auto max-w-6xl px-6 py-16">
-        <h1 className="mb-8 border-b border-brand-border pb-4 font-display text-4xl uppercase tracking-wide">
-          Noticias
-        </h1>
+        <div className="mb-8 flex flex-wrap items-baseline gap-3 border-b border-brand-border pb-4">
+          <h1 className="font-display text-4xl uppercase tracking-wide">Noticias</h1>
+          {/* Contenido temporal (MS-13) */}
+          <span className="rounded-full border border-brand-border px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-brand-gray">
+            Contenido de muestra
+          </span>
+        </div>
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
           {newsItems.map((item) => (
             <Link

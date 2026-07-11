@@ -14,7 +14,7 @@ export const newsItems: NewsItem[] = [
     slug: "test-privados-pretemporada",
     tag: "MotoGP",
     title:
-      "Crónica: así se vivió la última tanda de test privados antes del arranque de temporada",
+      "Crónica: así se vivió la última tanda de test privados antes del inicio de temporada",
     meta: "Hace 3 horas · Redacción MotoX",
     feature: true,
     body: "Los equipos cerraron la pretemporada con una última tanda de test privados marcada por tiempos muy ajustados y varias sorpresas en la tabla. En las próximas semanas se conocerá la alineación definitiva de cara al primer Gran Premio.",
@@ -45,6 +45,6 @@ export const newsItems: NewsItem[] = [
     tag: "Moto3",
     title: "Entrevista exclusiva con la revelación de la categoría",
     meta: "Ayer",
-    body: "Charlamos con una de las figuras que más dio que hablar en la pretemporada de Moto3 sobre sus expectativas para el año que arranca.",
+    body: "Charlamos con una de las figuras que más dio que hablar en la pretemporada de Moto3 sobre sus expectativas para el año que comienza.",
   },
 ];

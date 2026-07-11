@@ -18,7 +18,7 @@ export default function About() {
             href="/sobre-motox"
             className="inline-block rounded bg-brand-red px-5 py-2.5 text-[13px] font-bold uppercase tracking-wide text-white hover:bg-brand-red-dark"
           >
-            Conocé el equipo
+            Conoce el equipo
           </a>
         </div>
         <div className="aspect-[4/3] rounded-lg bg-gradient-to-br from-brand-red-dark to-brand-bg" />

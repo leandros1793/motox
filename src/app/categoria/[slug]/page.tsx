@@ -30,7 +30,7 @@ export default async function CategoriaPage({
         <h1 className="font-display text-4xl uppercase tracking-wide">{category.label}</h1>
         <p className="mx-auto mt-4 max-w-md text-[15px] text-brand-gray">
           Estamos preparando la cobertura completa de {category.label}. Muy pronto vas a
-          encontrar acá noticias, resultados y fotos de la categoría.
+          encontrar aquí noticias, resultados y fotos de la categoría.
         </p>
       </main>
       <Footer />
