@@ -20,8 +20,9 @@
   --color-brand-red-dark: var(--red-dark);
   --color-brand-gray: var(--gray);
   --color-brand-border: var(--border-c);
-  --font-display: var(--font-bebas), sans-serif;
-  --font-sans: var(--font-inter), sans-serif;
+  /* MS-17: Aeonik unifica identidad de marca (reemplaza Bebas Neue + Inter) */
+  --font-display: var(--font-aeonik), sans-serif;
+  --font-sans: var(--font-aeonik), sans-serif;
 }
 
 html {
@@ -31,4 +32,11 @@ html {
 body {
   background: var(--bg);
   color: var(--white);
+}
+
+/* Aeonik no tiene el peso condensado/heavy de Bebas Neue por defecto,
+   asi que los titulos (font-display) usan el corte Black para conservar
+   la fuerza visual que tenian antes. */
+.font-display {
+  font-weight: 900;
 }
