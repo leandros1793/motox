@@ -16,13 +16,16 @@ export default function Header() {
 
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 xs:px-6">
         <Link href="/" className="flex items-center" aria-label="MotoX — inicio">
+          {/* MS-8: version "Alternativo" (monograma MX RACING) en vez del
+              wordmark completo, mas compacta y mostrada mas grande para
+              reforzar el reconocimiento de marca, segun pidio Flor. */}
           <Image
-            src="/logo/motox-logo-white.png"
+            src="/logo/motox-alt-white.png"
             alt="MotoX Racing"
-            width={1964}
+            width={1357}
             height={790}
             priority
-            className="h-7 w-auto xs:h-8 sm:h-9"
+            className="h-9 w-auto xs:h-10 sm:h-12"
           />
         </Link>
 
