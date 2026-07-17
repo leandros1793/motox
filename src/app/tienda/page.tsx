@@ -11,7 +11,7 @@ export default function TiendaPage() {
       <Header />
       <main className="mx-auto max-w-6xl px-6 py-16">
         <div className="mb-8 flex flex-wrap items-baseline gap-3 border-b border-brand-border pb-4">
-          <h1 className="font-display text-4xl uppercase tracking-wide">Tienda</h1>
+          <h1 className="font-display text-5xl uppercase tracking-wide">Tienda</h1>
           <span className="rounded-full border border-brand-border px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-brand-gray">
             Catálogo de muestra
           </span>

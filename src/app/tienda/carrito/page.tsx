@@ -12,7 +12,7 @@ export default function CarritoPage() {
     <>
       <Header />
       <main className="mx-auto max-w-3xl px-6 py-16">
-        <h1 className="mb-8 border-b border-brand-border pb-4 font-display text-4xl uppercase tracking-wide">
+        <h1 className="mb-8 border-b border-brand-border pb-4 font-display text-5xl uppercase tracking-wide">
           Carrito
         </h1>
 

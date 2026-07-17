@@ -27,7 +27,7 @@ export default async function CategoriaPage({
         <span className="mb-4 inline-block rounded bg-brand-red px-3 py-1 text-[11px] font-extrabold uppercase tracking-wide text-white">
           Categoría
         </span>
-        <h1 className="font-display text-4xl uppercase tracking-wide">{category.label}</h1>
+        <h1 className="font-display text-5xl uppercase tracking-wide">{category.label}</h1>
         <p className="mx-auto mt-4 max-w-md text-[15px] text-brand-gray">
           Estamos preparando la cobertura completa de {category.label}. Muy pronto vas a
           encontrar aquí noticias, resultados y fotos de la categoría.

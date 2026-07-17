@@ -27,7 +27,7 @@ export default async function NoticiaPage({
         <span className="mt-6 inline-block rounded bg-brand-red px-2.5 py-1 text-[11px] font-extrabold uppercase tracking-wide text-white">
           {item.tag}
         </span>
-        <h1 className="mt-4 font-display text-4xl uppercase leading-tight tracking-wide">
+        <h1 className="mt-4 font-display text-5xl uppercase leading-tight tracking-wide">
           {item.title}
         </h1>
         <div className="mt-3 text-xs uppercase tracking-wide text-brand-gray">{item.meta}</div>

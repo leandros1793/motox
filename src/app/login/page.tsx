@@ -12,7 +12,7 @@ export default function LoginPage() {
           <span className="mb-4 inline-block rounded bg-brand-red px-3 py-1 text-[11px] font-extrabold uppercase tracking-wide text-white">
             Próximamente
           </span>
-          <h1 className="font-display text-3xl uppercase tracking-wide">Iniciar sesión</h1>
+          <h1 className="font-display text-4xl uppercase tracking-wide">Iniciar sesión</h1>
           <p className="mt-3 text-sm text-brand-gray">
             El sistema de cuentas de MotoX todavía está en desarrollo. Vas a
             poder crear tu cuenta y acceder a contenido exclusivo apenas

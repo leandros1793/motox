@@ -61,7 +61,7 @@ export default function Hero() {
             Sin publicidad ni pop-ups
           </span>
         </div>
-        <h1 className="max-w-3xl font-display text-[clamp(40px,7vw,84px)] uppercase leading-[0.95] tracking-wide">
+        <h1 className="max-w-3xl font-display text-[clamp(48px,8vw,100px)] uppercase leading-[0.95] tracking-wide">
           Todo el motociclismo
           <br />
           en un solo rugido

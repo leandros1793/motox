@@ -3,7 +3,7 @@ export default function About() {
     <section className="mx-auto max-w-6xl px-6 py-16">
       <div className="grid grid-cols-1 items-center gap-14 md:grid-cols-2">
         <div>
-          <h2 className="mb-4 font-display text-4xl uppercase tracking-wide">Sobre MotoX</h2>
+          <h2 className="mb-4 font-display text-5xl uppercase tracking-wide">Sobre MotoX</h2>
           <p className="mb-3.5 text-[15px] text-neutral-300">
             <strong className="text-white">Todo el motociclismo en un solo rugido.</strong>{" "}
             Cubrimos MotoGP, Moto2, Moto3, Superbikes, el Mundial Femenino y
