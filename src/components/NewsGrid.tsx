@@ -6,7 +6,7 @@ export default function NewsGrid() {
     <section className="mx-auto max-w-6xl px-6 py-16">
       <div className="mb-8 flex flex-wrap items-baseline justify-between gap-2 border-b border-brand-border pb-4">
         <div className="flex items-baseline gap-3">
-          <h2 className="font-display text-4xl uppercase tracking-wide">Noticias destacadas</h2>
+          <h2 className="font-display text-2xl uppercase tracking-wide">Noticias destacadas</h2>
           {/* Contenido temporal (MS-13): aviso discreto mientras no haya notas reales cargadas */}
           <span className="rounded-full border border-brand-border px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-brand-gray">
             Contenido de muestra

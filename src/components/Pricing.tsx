@@ -39,7 +39,7 @@ export default function Pricing() {
     <section className="bg-brand-bg-alt py-16">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mb-10 text-center">
-          <h2 className="font-display text-4xl uppercase tracking-wide">Únete a MotoX</h2>
+          <h2 className="font-display text-2xl uppercase tracking-wide">Únete a MotoX</h2>
           <p className="mt-2 text-[15px] text-brand-gray">
             Elegí tu nivel de acceso al contenido exclusivo
           </p>

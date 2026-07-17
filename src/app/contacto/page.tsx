@@ -34,7 +34,7 @@ export default function ContactoPage() {
     <>
       <Header />
       <main className="mx-auto max-w-2xl px-6 py-20 text-center">
-        <h1 className="font-display text-5xl uppercase tracking-wide">Contacto</h1>
+        <h1 className="font-display text-3xl uppercase tracking-wide">Contacto</h1>
         <p className="mx-auto mt-4 max-w-md text-[15px] text-brand-gray">
           ¿Tienes una consulta, propuesta de prensa o quieres sumarte al equipo?
           Escríbenos por cualquiera de estos canales:

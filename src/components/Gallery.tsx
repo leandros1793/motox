@@ -2,7 +2,7 @@ export default function Gallery() {
   return (
     <section className="mx-auto max-w-6xl px-6 py-16">
       <div className="mb-8 flex items-baseline justify-between border-b border-brand-border pb-4">
-        <h2 className="font-display text-4xl uppercase tracking-wide">Fotografía</h2>
+        <h2 className="font-display text-2xl uppercase tracking-wide">Fotografía</h2>
         <a href="/fotografia" className="text-[13px] font-bold uppercase tracking-wide text-brand-red">
           Ver galería completa →
         </a>
