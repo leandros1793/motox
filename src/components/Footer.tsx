@@ -5,12 +5,15 @@ export default function Footer() {
     <footer className="border-t border-brand-border py-10">
       <div className="mx-auto max-w-6xl px-6">
         <div className="flex flex-wrap items-center justify-between gap-4">
+          {/* Logo mas grande y version "Alternativo" para que tenga la
+              misma presencia que el header, en linea con referencias como
+              MotoGP/F1 donde el logo domina visualmente la barra. */}
           <Image
-            src="/logo/motox-logo-red.png"
+            src="/logo/motox-alt-red.png"
             alt="MotoX Racing"
-            width={1964}
+            width={1357}
             height={790}
-            className="h-10 w-auto"
+            className="h-16 w-auto sm:h-20"
           />
           <div className="flex gap-5 text-sm text-brand-gray">
             <a href="https://www.instagram.com/motox.es/" className="hover:text-white">Instagram</a>
